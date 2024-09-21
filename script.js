@@ -23,9 +23,9 @@ function wishMe() {
   }
 }
 
-//window.addEventListener('load', () => {
-   // wishMe();
-//});
+window.addEventListener('load', () => {
+    wishMe();
+});
 let speechRecognition = window.SpeechRecognition || window.webkitSpeechRecognition
 let recognition = new speechRecognition()
 recognition.onresult = (event) => {
